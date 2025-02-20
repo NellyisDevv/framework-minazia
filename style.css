@@ -17,7 +17,7 @@ Text Domain: divi-child
 
 :root {
   --spacing-none: none;
-  --spacing-xs: clamp(0.875rem, 0.858rem + 0.1087vw, 0.9375rem);
+  --spacing-xs: clamp(0.875rem, 0.857rem + 0.1087vw, 0.9375rem);
   --spacing-sm: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
   --spacing-md: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
   --spacing-lg: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
