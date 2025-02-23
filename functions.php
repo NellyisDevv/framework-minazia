@@ -17,6 +17,7 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 $myUpdateChecker->setBranch('main');  // or 'master' depending on your default branch
 ?>
 
+
 <?php
 defined('ABSPATH') || exit;
 
@@ -29,8 +30,7 @@ add_action('wp_enqueue_scripts', function() {
         'framework-minazia-style',
         get_stylesheet_uri(),
         array('divi-parent-style'), // Dependency ensures parent loads first
-        '1.0.3' // Set to your current version
-        // Or use filemtime(get_stylesheet_directory() . '/style.css') for dynamic versioning
+        filemtime(get_stylesheet_directory() . '/style.css') // Dynamic versioning based on file modification time
     );
 });
 ?>
