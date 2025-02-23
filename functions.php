@@ -16,3 +16,7 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 //Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');  // or 'master' depending on your default branch
 ?>
+
+<?php
+wp_enqueue_style('theme-style', get_template_directory_uri() . '/style.css', array(), filemtime(get_template_directory() . '/style.css'));
+?>

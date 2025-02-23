@@ -5,7 +5,7 @@ Description: A flexible framework for Divi.
 Author: Minazia CO
 Author URI: https://www.nellyisdev.com
 Template: Divi
-Version: 1.0.3
+Version: 1.0.4
 Text Domain: divi-child
 */
 
@@ -33,7 +33,7 @@ Text Domain: divi-child
   --font-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem) !important;
   --font-xl: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem) !important;
   --font-2xl: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem) !important;
-  --font-3xl: 20px !important;
+  --font-3xl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
 
   --lineheight-xs: clamp(1.5rem, 0.55vi + 1.2rem, 1.35rem) !important;
   --lineheight-sm: clamp(2rem, 0.55vi + 1.2rem, 1.35rem) !important;
