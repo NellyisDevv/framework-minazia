@@ -9,3 +9,15 @@
 .max-w-sm {
   max-width: 1000px !important;
 }
+
+/* Idea Instead of Live JIT Compiler */
+
+/* 
+.max-w-100 {
+  max-width: 100px !important
+} 
+
+.max-w-200 {
+  max-width: 200px !important;
+}
+*/
