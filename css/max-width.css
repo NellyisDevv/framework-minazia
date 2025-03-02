@@ -1,0 +1,11 @@
+.max-w-2xs {
+  max-width: 400px !important;
+}
+
+.max-w-xs {
+  max-width: 800px !important;
+}
+
+.max-w-sm {
+  max-width: 1000px !important;
+}

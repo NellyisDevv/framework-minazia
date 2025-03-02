@@ -1,0 +1,26 @@
+:root {
+  --spacing-none: none;
+  --spacing-xs: clamp(0.875rem, 0.858rem + 0.1087vw, 0.9375rem);
+  --spacing-sm: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --spacing-md: clamp(1.6875rem, 1.6223rem + 0.3261vw, 1.875rem);
+  --spacing-lg: clamp(2.25rem, 2.163rem + 0.4348vw, 2.5rem);
+  --spacing-xl: clamp(3.375rem, 3.2446rem + 0.6522vw, 3.75rem);
+  --spacing-2xl: clamp(4.5rem, 4.3261rem + 0.8696vw, 5rem);
+  --spacing-3xl: clamp(6.75rem, 6.4891rem + 1.3043vw, 7.5rem);
+
+  --font-xs: clamp(0.8rem, 0.17vi + 0.76rem, 0.89rem) !important;
+  --font-sm: clamp(1rem, 0.34vi + 0.91rem, 1.19rem) !important;
+  --font-md: clamp(1.25rem, 0.61vi + 1.1rem, 1.58rem) !important;
+  --font-lg: clamp(1.56rem, 1vi + 1.31rem, 2.11rem) !important;
+  --font-xl: clamp(1.95rem, 1.56vi + 1.56rem, 2.81rem) !important;
+  --font-2xl: clamp(2.44rem, 2.38vi + 1.85rem, 3.75rem) !important;
+  --font-3xl: clamp(3.08rem, 3.54vw + 2.17rem, 5rem);
+
+  --lineheight-xs: clamp(1.5rem, 0.55vi + 1.2rem, 1.35rem) !important;
+  --lineheight-sm: clamp(2rem, 0.55vi + 1.2rem, 1.35rem) !important;
+  --lineheight-md: clamp(2.4rem, 0.81vi + 1.3rem, 1.78rem) !important;
+  --lineheight-lg: clamp(3.2rem, 1.2vi + 1.8rem, 2.58rem) !important;
+  --lineheight-xl: clamp(4.2rem, 2.2vi + 2.1rem, 3.38rem) !important;
+  --lineheight-2xl: clamp(5.2rem, 3.2vi + 2.8rem, 4.18rem) !important;
+  --lineheight-3xl: clamp(6.2rem, 3.8vi + 3.3rem, 5.18rem) !important;
+}

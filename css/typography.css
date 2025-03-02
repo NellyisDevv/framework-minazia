@@ -1,0 +1,208 @@
+/* Heading Text */
+
+.heading-xs h1,
+.heading-xs h2,
+.heading-xs h3,
+.heading-xs h4,
+.heading-xs h5,
+.heading-xs h6,
+.heading-xs.et_pb_module_header {
+  font-size: var(--font-xs) !important;
+  line-height: var(--lineheight-xs) !important;
+}
+
+.heading-sm h1,
+.heading-sm h2,
+.heading-sm h3,
+.heading-sm h4,
+.heading-sm h5,
+.heading-sm h6,
+.heading-sm.et_pb_module_header {
+  font-size: var(--font-sm) !important;
+  line-height: var(--lineheight-sm) !important;
+}
+
+.heading-md h1,
+.heading-md h2,
+.heading-md h3,
+.heading-md h4,
+.heading-md h5,
+.heading-md h6,
+.heading-md.et_pb_module_header {
+  font-size: var(--font-md) !important;
+  line-height: var(--lineheight-md) !important;
+}
+
+.heading-lg h1,
+.heading-lg h2,
+.heading-lg h3,
+.heading-lg h4,
+.heading-lg h5,
+.heading-lg h6,
+.heading-lg.et_pb_module_header {
+  font-size: var(--font-lg) !important;
+  line-height: var(--lineheight-lg) !important;
+}
+
+.heading-xl h1,
+.heading-xl h2,
+.heading-xl h3,
+.heading-xl h4,
+.heading-xl h5,
+.heading-xl h6,
+.heading-xl.et_pb_module_header {
+  font-size: var(--font-xl) !important;
+  line-height: var(--lineheight-xl) !important;
+}
+
+.heading-2xl h1,
+.heading-2xl h2,
+.heading-2xl h3,
+.heading-2xl h4,
+.heading-2xl h5,
+.heading-2xl h6,
+.heading-2xl.et_pb_module_header {
+  font-size: var(--font-2xl) !important;
+  line-height: var(--lineheight-2xl) !important;
+}
+
+.heading-3xl h1,
+.heading-3xl h2,
+.heading-3xl h3,
+.heading-3xl h4,
+.heading-3xl h5,
+.heading-3xl h6,
+.heading-3xl.et_pb_module_header {
+  font-size: var(--font-3xl) !important;
+  line-height: var(--lineheight-3xl) !important;
+}
+
+/* Paragraph text & Button */
+
+.text-xs p,
+.text-xs.et_pb_button,
+.text-xs.et_pb_blurb_description {
+  font-size: var(--font-xs) !important;
+  line-height: var(--lineheight-xs) !important;
+}
+
+.text-sm p,
+.text-sm.et_pb_button,
+.text-sm.et_pb_blurb_description {
+  font-size: var(--font-sm) !important;
+  line-height: var(--lineheight-sm) !important;
+}
+
+.text-md p,
+.text-md.et_pb_button,
+.text-md.et_pb_blurb_description {
+  font-size: var(--font-md) !important;
+  line-height: var(--lineheight-md) !important;
+}
+
+.text-lg p,
+.text-lg.et_pb_button,
+.text-lg.et_pb_blurb_description {
+  font-size: var(--font-lg) !important;
+  line-height: var(--lineheight-lg) !important;
+}
+
+.text-xl p,
+.text-xl.et_pb_button,
+.text-xl.et_pb_blurb_description {
+  font-size: var(--font-xl) !important;
+  line-height: var(--lineheight-xl) !important;
+}
+
+.text-2xl p,
+.text-2xl.et_pb_button,
+.text-2xl.et_pb_blurb_description {
+  font-size: var(--font-2xl) !important;
+  line-height: var(--lineheight-2xl) !important;
+}
+
+.text-3xl p,
+.text-3xl.et_pb_button,
+.text-3xl.et_pb_blurb_description {
+  font-size: var(--font-3xl) !important;
+  line-height: var(--lineheight-3xl) !important;
+}
+
+/* Font weight */
+
+.font-light h1,
+.font-light h2,
+.font-light h3,
+.font-light h4,
+.font-light h5,
+.font-light h6,
+.font-light p,
+.font-light.et_pb_button {
+  font-weight: 300;
+}
+
+.font-normal h1,
+.font-normal h2,
+.font-normal h3,
+.font-normal h4,
+.font-normal h5,
+.font-normal h6,
+.font-normal p,
+.font-normal.et_pb_button {
+  font-weight: 400;
+}
+
+.font-medium h1,
+.font-medium h2,
+.font-medium h3,
+.font-medium h4,
+.font-medium h5,
+.font-medium h6,
+.font-medium p,
+.font-medium.et_pb_button {
+  font-weight: 500;
+}
+
+.font-semibold h1,
+.font-semibold h2,
+.font-semibold h3,
+.font-semibold h4,
+.font-semibold h5,
+.font-semibold h6,
+.font-semibold p,
+.font-semibold.et_pb_button {
+  font-weight: 600;
+}
+
+.font-bold h1,
+.font-bold h2,
+.font-bold h3,
+.font-bold h4,
+.font-bold h5,
+.font-bold h6,
+.font-bold p,
+.font-bold.et_pb_button {
+  font-weight: 700;
+}
+
+.font-extrabold h1,
+.font-extrabold h2,
+.font-extrabold h3,
+.font-extrabold h4,
+.font-extrabold h5,
+.font-extrabold h6,
+.font-extrabold p,
+.font-extrabold.et_pb_button {
+  font-weight: 800;
+}
+
+.font-black h1,
+.font-black h2,
+.font-black h3,
+.font-black h4,
+.font-black h5,
+.font-black h6,
+.font-black p,
+.font-black.et_pb_button {
+  font-weight: 900;
+}

@@ -11,7 +11,7 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
     'framework-minazia'
 );
 
-//Set the branch that contains the stable release.
+// Set the branch that contains the stable release.
 $myUpdateChecker->setBranch('main');  // or 'master' depending on your default branch
 
 defined('ABSPATH') || exit;
@@ -20,12 +20,12 @@ add_action('wp_enqueue_scripts', function() {
     // Enqueue parent theme (Divi) style
     wp_enqueue_style('divi-parent-style', get_template_directory_uri() . '/style.css', array(), null);
 
-    // Enqueue child theme (framework-minazia) style
+    // Enqueue combined and minified child theme style dynamically
     wp_enqueue_style(
         'framework-minazia-style',
-        get_stylesheet_uri(),
+        get_stylesheet_directory_uri() . '/style.min.css',
         array('divi-parent-style'), // Dependency ensures parent loads first
-        filemtime(get_stylesheet_directory() . '/style.css') // Dynamic versioning based on file modification time
+        filemtime(get_stylesheet_directory() . '/style.min.css') // Dynamic versioning based on file modification time
     );
 });
 
