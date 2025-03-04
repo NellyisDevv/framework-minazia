@@ -1,6 +1,5 @@
 <?php
 
-require_once get_stylesheet_directory() . '/custom-scripts/defer-scripts.php';
 require __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
 // require 'plugin-update-checker/plugin-update-checker.php';
 
@@ -82,3 +81,5 @@ function restrict_theme_without_license() {
         wp_die('Please activate your theme with a valid license key. Go to <a href="' . admin_url('admin.php?page=theme-license') . '">License</a> to enter your key.');
     }
 }
+
+require_once get_stylesheet_directory() . '/custom-scripts/defer-scripts.php';
