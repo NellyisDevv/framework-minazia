@@ -8,20 +8,23 @@ gulp.task('css', function () {
   return gulp
     .src('css/*.css') // All files in css/ directory
     .pipe(
-      order([
-        'root.css',
-        'reset.css',
-        'padding.css',
-        'margin.css',
-        'typography.css',
-        'layout.css',
-        'shadows.css',
-        'border-radius.css',
-        'max-width.css',
-        'buttons.css',
-        'flexbox.css',
-        'max-width.css',
-      ])
+      order(
+        [
+          'root.css',
+          'reset.css',
+          'padding.css',
+          'margin.css',
+          'typography.css',
+          'layout.css',
+          'shadows.css',
+          'border-radius.css',
+          'max-width.css', // Note: You had this listed twice in your original code; kept it once
+          'buttons.css',
+          'flexbox.css',
+          'css/*.css', // Wildcard to include all other CSS files dynamically
+        ],
+        { base: './' }
+      ) // Base path to resolve file patterns correctly
     )
     .pipe(concat('style.min.css'))
     .pipe(cssnano())
