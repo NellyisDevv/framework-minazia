@@ -19,6 +19,8 @@ gulp.task('css', function () {
         'border-radius.css',
         'max-width.css',
         'buttons.css',
+        'flexbox.css',
+        'max-width.css',
       ])
     )
     .pipe(concat('style.min.css'))

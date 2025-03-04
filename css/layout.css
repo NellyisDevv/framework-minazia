@@ -78,106 +78,68 @@ Doesn't Work: Buttons
   align-items: justify;
 }
 
-/* Center Rules Tablet & Mobile */
-
-/* Mobile Classes */
-
+/* Existing Mobile Classes */
 @media only screen and (max-width: 767px) {
-  /* Add your mobile-specific styles here */
   .et_pb_module.mobile-center {
     text-align: center !important;
     margin-right: auto !important;
     margin-left: auto !important;
   }
-}
-
-@media only screen and (max-width: 767px) {
-  /* Add your mobile-specific styles here */
   .et_pb_module.mobile-right {
     text-align: right;
-    align-items: right;
     margin-left: 0 !important;
     margin-right: auto !important;
   }
-}
-
-@media only screen and (max-width: 767px) {
-  /* Add your mobile-specific styles here */
   .et_pb_module.mobile-left {
     text-align: left;
-    align-items: left;
     margin-left: auto !important;
     margin-right: 0 !important;
   }
-}
-
-@media only screen and (max-width: 767px) {
-  /* Add your mobile-specific styles here */
   .et_pb_module.mobile-justify {
     text-align: justify;
-    align-items: justify;
   }
 }
 
-/* Tablet Classes */
-
+/* Existing Tablet Classes */
 @media only screen and (max-width: 980px) {
-  /* Add your tablet-specific styles here */
-  .et_pb_module.tablet-center {
+  .et_pb_module.t-center {
     text-align: center !important;
     margin-right: auto !important;
     margin-left: auto !important;
   }
-}
-
-@media only screen and (max-width: 980px) {
-  /* Add your mobile-specific styles here */
-  .et_pb_module.tablet-right {
+  .et_pb_module.t-right {
     text-align: right;
-    align-items: right;
     margin-left: 0 !important;
     margin-right: auto !important;
   }
-}
-
-@media only screen and (max-width: 980px) {
-  /* Add your mobile-specific styles here */
-  .et_pb_module.tablet-left {
+  .et_pb_module.t-left {
     text-align: left;
-    align-items: left;
     margin-left: auto !important;
     margin-right: 0 !important;
   }
-}
-
-@media only screen and (max-width: 980px) {
-  /* Add your mobile-specific styles here */
-  .et_pb_module.tablet-justify {
+  .et_pb_module.t-justify {
     text-align: justify;
-    align-items: justify;
   }
 }
 
-/* Flexbox */
-
-.flex .et_pb_column {
-  display: flex !important;
-}
-
-.justify-center {
-  justify-content: center !important;
-}
-
-.align-center {
-  align-items: center !important;
-}
-
-/* gap spacing */
-
-.gap-space-none .et_pb_column {
-  margin: 0 !important;
-}
-
-.gap-space-xs .et_pb_column {
-  margin-right: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem) !important;
+/* Both Tablet & Mobile (up to 980px) */
+@media only screen and (max-width: 980px) {
+  .et_pb_module.mt-center {
+    text-align: center !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+  }
+  .et_pb_module.mt-right {
+    text-align: right;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+  }
+  .et_pb_module.mt-left {
+    text-align: left;
+    margin-left: auto !important;
+    margin-right: 0 !important;
+  }
+  .et_pb_module.mt-justify {
+    text-align: justify;
+  }
 }
