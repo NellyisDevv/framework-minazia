@@ -1,6 +1,6 @@
 {
   "name": "framework-minazia",
-  "version": "1.3.0",
+  "version": "1.3.2",
   "description": "Build divi wordpress websites quickly!",
   "main": "index.js",
   "scripts": {
