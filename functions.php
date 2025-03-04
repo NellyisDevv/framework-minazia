@@ -1,6 +1,4 @@
 <?php
-/* defer js scripts for optimization */
-require_once get_stylesheet_directory() . '/custom-scripts/defer-scripts.php';
 
 require __DIR__ . '/plugin-update-checker/plugin-update-checker.php';
 // require 'plugin-update-checker/plugin-update-checker.php';
