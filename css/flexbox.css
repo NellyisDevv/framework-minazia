@@ -36,19 +36,6 @@
   }
 }
 
-/* Both Tablet & Mobile (up to 980px) */
-@media only screen and (max-width: 980px) {
-  .mt-flex.et_pb_row {
-    display: flex;
-  }
-  .mt-flex-col.et_pb_row {
-    flex-direction: column;
-  }
-  .mt-flex-col-reverse.et_pb_row {
-    flex-direction: column-reverse;
-  }
-}
-
 /* gap spacing */
 
 .gap-space-none .et_pb_column {
