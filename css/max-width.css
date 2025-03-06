@@ -1,0 +1,42 @@
+/* Existing Max Width Classes */
+.max-w-4 {
+  max-width: 4px;
+}
+
+.max-w-2xs {
+  max-width: 400px;
+}
+
+.max-w-xs {
+  max-width: 800px;
+}
+
+.max-w-sm {
+  max-width: 1000px;
+}
+
+/* Mobile: Remove max-width (up to 767px) */
+@media only screen and (max-width: 767px) {
+  .m-max-w-none {
+    max-width: none !important;
+  }
+}
+
+/* Tablet: Remove max-width (up to 980px) */
+@media only screen and (max-width: 980px) {
+  .t-max-w-none {
+    max-width: none !important;
+  }
+}
+
+/* Idea Instead of Live JIT Compiler */
+
+/* 
+.max-w-100 {
+  max-width: 100px !important
+} 
+
+.max-w-200 {
+  max-width: 200px !important;
+}
+*/

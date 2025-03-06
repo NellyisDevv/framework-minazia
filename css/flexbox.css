@@ -1,0 +1,63 @@
+.flex.et_pb_row,
+.flex.et_pb_column {
+  display: flex;
+}
+
+.flex-col.et_pb_row {
+  flex-direction: column;
+}
+
+.flex-col-reverse.et_pb_row {
+  flex-direction: column-reverse;
+}
+
+/* Mobile Classes */
+@media only screen and (max-width: 767px) {
+  .m-flex.et_pb_row {
+    display: flex;
+  }
+  .m-flex-col.et_pb_row {
+    flex-direction: column;
+  }
+  .m-flex-col-reverse.et_pb_row {
+    flex-direction: column-reverse;
+  }
+}
+
+/* Tablet Classes */
+@media only screen and (max-width: 980px) {
+  .t-flex.et_pb_row {
+    display: flex;
+  }
+  .t-flex-col.et_pb_row {
+    flex-direction: column;
+  }
+  .t-flex-col-reverse.et_pb_row {
+    flex-direction: column-reverse;
+  }
+}
+
+/* Both Tablet & Mobile (up to 980px) */
+@media only screen and (max-width: 980px) {
+  .mt-flex.et_pb_row {
+    display: flex;
+  }
+  .mt-flex-col.et_pb_row {
+    flex-direction: column;
+  }
+  .mt-flex-col-reverse.et_pb_row {
+    flex-direction: column-reverse;
+  }
+}
+
+/* gap spacing */
+
+.gap-space-none .et_pb_column {
+  margin: 0 !important;
+}
+
+.gap-space-xs .et_pb_column {
+  margin-right: clamp(0.875rem, 0.8533rem + 0.1087vw, 0.9375rem) !important;
+}
+
+/* Add Flex Alignment Classes */

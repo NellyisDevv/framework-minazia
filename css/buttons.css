@@ -1,0 +1,44 @@
+/* Button Styles */
+
+/* Inline Buttons */
+
+.btn-inline .et_pb_button_module_wrapper {
+  display: inline-block;
+}
+
+/* has to be applied to row settings that the button lives on and not the button themselves */
+
+.btn-center {
+  text-align: center !important;
+}
+
+.btn-right {
+  text-align: right;
+  /* align-items: right; */
+  /* margin-left: 0 !important;
+  margin-right: auto !important; */
+}
+
+.btn-left {
+  text-align: left;
+}
+
+/* button hover broken */
+
+.et_pb_button:hover {
+  border-radius: 0 !important;
+  letter-spacing: 0 !important;
+  /* padding: initial !important; */
+  /* background-color: red !important; */
+}
+
+body #page-container .et_pb_section .custom-button.et_pb_button :hover {
+  padding: inherit;
+}
+
+/* 
+Target the specific button's hover state 
+body #page-container .et_pb_section .et_pb_button_0:hover {
+  padding: 0;
+}
+*/
