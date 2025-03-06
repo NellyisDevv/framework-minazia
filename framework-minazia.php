@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Minazia Framework
- * Plugin URI: https://www.nellyisdev.com
+ * Plugin URI: https://www.minazia.com
  * Description: A flexible framework for Divi.
- * Version: 1.3.5
+ * Version: 1.3.6
  * Author: Minazia CO
- * Author URI: https://www.nellyisdev.com
+ * Author URI: https://www.minazia.com
  * Text Domain: minazia-framework
  * Requires at least: 5.0
  * Requires PHP: 7.2

@@ -12,8 +12,10 @@ gulp.task('generate-max-widths', function () {
       through2.obj(function (file, enc, cb) {
         let cssContent = ''
         // Generate max-w-5 through max-w-800
-        for (let i = 1; i <= 30; i++) {
-          cssContent += `.max-w-${i * 50} { max-width: ${i * 50}px; }\n`
+        for (let i = 1; i <= 120; i++) {
+          cssContent += `.max-w-${i * 10} { max-width: ${
+            i * 10
+          }px !important; }\n`
         }
         file.contents = Buffer.from(cssContent)
         cb(null, file)
