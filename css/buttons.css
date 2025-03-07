@@ -25,13 +25,15 @@
 
 /* button hover broken */
 
+/* 
 .et_pb_button:hover {
   border-radius: 0 !important;
   letter-spacing: 0 !important;
-  /* padding: unset !important; */
-  /* padding: initial !important; */
-  /* background-color: red !important; */
-}
+  padding: unset !important; 
+  padding: initial !important; 
+  background-color: red !important; 
+} 
+*/
 
 /*
 body #page-container .et_pb_section .custom-button.et_pb_button :hover {
