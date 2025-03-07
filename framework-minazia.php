@@ -3,7 +3,7 @@
  * Plugin Name: Minazia Framework
  * Plugin URI: https://www.minazia.com
  * Description: A flexible framework for Divi.
- * Version: 1.3.7
+ * Version: 1.3.8
  * Author: Minazia CO
  * Author URI: https://www.minazia.com
  * Text Domain: minazia-framework
@@ -28,7 +28,7 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
 );
 $myUpdateChecker->setBranch('main');
 
-// Enqueue styles or inject CSS manually only if license is valid
+// Enqueue styles with high priority only if license is valid
 add_action('wp_enqueue_scripts', function() {
     if (minazia_is_license_valid()) {
         wp_enqueue_style(
@@ -37,13 +37,6 @@ add_action('wp_enqueue_scripts', function() {
             array(),
             filemtime(plugin_dir_path(__FILE__) . 'style.min.css')
         );
-    }
-}, 9999);
-
-// Fallback: Manually inject CSS into wp_head if needed
-add_action('wp_head', function() {
-    if (minazia_is_license_valid() && !wp_style_is('framework-minazia-style', 'enqueued')) {
-        echo '<link rel="stylesheet" href="' . esc_url(plugin_dir_url(__FILE__) . 'style.min.css') . '?ver=' . filemtime(plugin_dir_path(__FILE__) . 'style.min.css') . '" type="text/css" media="all" />';
     }
 }, 9999);
 
@@ -63,20 +56,9 @@ function minazia_register_license_menu() {
 // License page callback
 function minazia_license_page_callback() {
     if (isset($_POST['submit_license'])) {
-        $new_license_key = sanitize_text_field($_POST['license_key']);
-        $old_license_valid = minazia_is_license_valid(); // Check current status
-        update_option('minazia_framework_license_key', $new_license_key);
-        
+        update_option('minazia_framework_license_key', sanitize_text_field($_POST['license_key']));
         if (minazia_is_license_valid()) {
-            // Update a cache-busting timestamp when license becomes valid
-            update_option('minazia_framework_cache_buster', time());
             echo '<div class="updated"><p>License key saved and validated successfully!</p></div>';
-            
-            // Redirect to front end with cache buster to force refresh
-            if (!$old_license_valid) {
-                wp_redirect(home_url('?minazia_cache_buster=' . get_option('minazia_framework_cache_buster', time())));
-                exit;
-            }
         } else {
             echo '<div class="error"><p>Invalid or inactive license key. Please try again.</p></div>';
         }
@@ -123,26 +105,4 @@ function minazia_add_license_banner() {
         </div>
         ';
     }
-}
-
-// Filter URLs to include cache buster when license is valid
-add_filter('wp_redirect', 'minazia_add_cache_buster_to_redirect', 10, 2);
-add_filter('home_url', 'minazia_add_cache_buster_to_home_url', 10, 4);
-function minazia_add_cache_buster_to_home_url($url, $path, $orig_scheme, $blog_id) {
-    if (minazia_is_license_valid()) {
-        $cache_buster = get_option('minazia_framework_cache_buster', '');
-        if (!empty($cache_buster) && !is_admin()) {
-            $url = add_query_arg('minazia_cache_buster', $cache_buster, $url);
-        }
-    }
-    return $url;
-}
-function minazia_add_cache_buster_to_redirect($location, $status) {
-    if (minazia_is_license_valid() && strpos($location, 'minazia_cache_buster') === false) {
-        $cache_buster = get_option('minazia_framework_cache_buster', '');
-        if (!empty($cache_buster)) {
-            $location = add_query_arg('minazia_cache_buster', $cache_buster, $location);
-        }
-    }
-    return $location;
 }
