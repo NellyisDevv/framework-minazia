@@ -8,11 +8,11 @@
 
 /* has to be applied to row settings that the button lives on and not the button themselves */
 
-.btn-center {
+.btn-c {
   text-align: center !important;
 }
 
-.btn-right {
+.btn-r {
   text-align: right;
   /* align-items: right; */
   /* margin-left: 0 !important;

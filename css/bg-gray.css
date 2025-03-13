@@ -1,0 +1,84 @@
+/* 
+
+Classes to add before next update
+
+.et_pb_column
+
+*/
+
+.bg-g-50.et_pb_section,
+.bg-g-50.et_pb_column {
+  background-color: rgba(249, 250, 251, 1);
+}
+
+.bg-g-100.et_pb_section {
+  background-color: rgba(243, 244, 246, 1);
+}
+
+.bg-g-150.et_pb_section {
+  background-color: rgba(235, 236, 240, 1);
+}
+
+.bg-g-200.et_pb_section {
+  background-color: rgba(229, 231, 235, 1);
+}
+
+.bg-g-250.et_pb_section {
+  background-color: rgba(220, 223, 227, 1);
+}
+
+.bg-g-300.et_pb_section {
+  background-color: rgba(209, 213, 219, 1);
+}
+
+.bg-g-350.et_pb_section {
+  background-color: rgba(184, 190, 200, 1);
+}
+
+.bg-g-400.et_pb_section {
+  background-color: rgba(156, 163, 175, 1);
+}
+
+.bg-g-450.et_pb_section {
+  background-color: rgba(133, 141, 154, 1);
+}
+
+.bg-g-500.et_pb_section {
+  background-color: rgba(107, 114, 128, 1);
+}
+
+.bg-g-550.et_pb_section {
+  background-color: rgba(93, 100, 114, 1);
+}
+
+.bg-g-600.et_pb_section {
+  background-color: rgba(75, 85, 99, 1);
+}
+
+.bg-g-650.et_pb_section {
+  background-color: rgba(67, 75, 90, 1);
+}
+
+.bg-g-700.et_pb_section {
+  background-color: rgba(55, 65, 81, 1);
+}
+
+.bg-g-750.et_pb_section {
+  background-color: rgba(45, 54, 68, 1);
+}
+
+.bg-g-800.et_pb_section {
+  background-color: rgba(31, 41, 55, 1);
+}
+
+.bg-g-850.et_pb_section {
+  background-color: rgba(26, 35, 51, 1);
+}
+
+.bg-g-900.et_pb_section {
+  background-color: rgba(17, 24, 39, 1);
+}
+
+.bg-g-950.et_pb_section {
+  background-color: rgba(3, 7, 18, 1);
+}

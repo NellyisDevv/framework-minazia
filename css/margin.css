@@ -12,7 +12,11 @@ p.m-none,
 .m-none.et_pb_row,
 .m-none.et_pb_section,
 .m-none.et_pb_column,
-.m-none.et_pb_blurb {
+.m-none.et_pb_blurb,
+.m-none.et_pb_image,
+.m-none.et_pb_accordion_item,
+.m-none.et_pb_audio_module_content,
+.m-none.et_pb_module_header {
   margin: var(--spacing-none) !important;
 }
 
@@ -28,7 +32,11 @@ p.m-xs,
 .m-xs.et_pb_row,
 .m-xs.et_pb_section,
 .m-xs.et_pb_column,
-.m-xs.et_pb_blurb {
+.m-xs.et_pb_blurb,
+.m-xs.et_pb_image,
+.m-xs.et_pb_accordion_item,
+.m-xs.et_pb_audio_module_content,
+.m-xs.et_pb_module_header {
   margin: var(--spacing-xs) !important;
 }
 
@@ -44,7 +52,11 @@ p.m-sm,
 .m-sm.et_pb_row,
 .m-sm.et_pb_section,
 .m-sm.et_pb_column,
-.m-sm.et_pb_blurb {
+.m-sm.et_pb_blurb,
+.m-sm.et_pb_image,
+.m-sm.et_pb_accordion_item,
+.m-sm.et_pb_audio_module_content,
+.m-sm.et_pb_module_header {
   margin: var(--spacing-sm) !important;
 }
 
@@ -60,7 +72,11 @@ p.m-md,
 .m-md.et_pb_row,
 .m-md.et_pb_section,
 .m-md.et_pb_column,
-.m-md.et_pb_blurb {
+.m-md.et_pb_blurb,
+.m-md.et_pb_image,
+.m-md.et_pb_accordion_item,
+.m-md.et_pb_audio_module_content,
+.m-md.et_pb_module_header {
   margin: var(--spacing-md) !important;
 }
 
@@ -76,7 +92,11 @@ p.m-lg,
 .m-lg.et_pb_row,
 .m-lg.et_pb_section,
 .m-lg.et_pb_column,
-.m-lg.et_pb_blurb {
+.m-lg.et_pb_blurb,
+.m-lg.et_pb_image,
+.m-lg.et_pb_accordion_item,
+.m-lg.et_pb_audio_module_content,
+.m-lg.et_pb_module_header {
   margin: var(--spacing-lg) !important;
 }
 
@@ -92,7 +112,11 @@ p.m-xl,
 .m-xl.et_pb_row,
 .m-xl.et_pb_section,
 .m-xl.et_pb_column,
-.m-xl.et_pb_blurb {
+.m-xl.et_pb_blurb,
+.m-xl.et_pb_image,
+.m-xl.et_pb_accordion_item,
+.m-xl.et_pb_audio_module_content,
+.m-xl.et_pb_module_header {
   margin: var(--spacing-xl) !important;
 }
 
@@ -108,7 +132,11 @@ p.m-2xl,
 .m-2xl.et_pb_row,
 .m-2xl.et_pb_section,
 .m-2xl.et_pb_column,
-.m-2xl.et_pb_blurb {
+.m-2xl.et_pb_blurb,
+.m-2xl.et_pb_image,
+.m-2xl.et_pb_accordion_item,
+.m-2xl.et_pb_audio_module_content,
+.m-2xl.et_pb_module_header {
   margin: var(--spacing-2xl) !important;
 }
 
@@ -124,7 +152,11 @@ p.m-3xl,
 .m-3xl.et_pb_row,
 .m-3xl.et_pb_section,
 .m-3xl.et_pb_column,
-.m-3xl.et_pb_blurb {
+.m-3xl.et_pb_blurb,
+.m-3xl.et_pb_image,
+.m-3xl.et_pb_accordion_item,
+.m-3xl.et_pb_audio_module_content,
+.m-3xl.et_pb_module_header {
   margin: var(--spacing-3xl) !important;
 }
 
@@ -142,7 +174,11 @@ p.mr-none,
 .mr-none.et_pb_row,
 .mr-none.et_pb_section,
 .mr-none.et_pb_column,
-.mr-none.et_pb_blurb {
+.mr-none.et_pb_blurb,
+.mr-none.et_pb_image,
+.mr-none.et_pb_accordion_item,
+.mr-none.et_pb_audio_module_content,
+.mr-none.et_pb_module_header {
   margin-right: var(--spacing-none) !important;
 }
 
@@ -158,7 +194,11 @@ p.mr-xs,
 .mr-xs.et_pb_row,
 .mr-xs.et_pb_section,
 .mr-xs.et_pb_column,
-.mr-xs.et_pb_blurb {
+.mr-xs.et_pb_blurb,
+.mr-xs.et_pb_image,
+.mr-xs.et_pb_accordion_item,
+.mr-xs.et_pb_audio_module_content,
+.mr-xs.et_pb_module_header {
   margin-right: var(--spacing-xs) !important;
 }
 
@@ -174,7 +214,11 @@ p.mr-sm,
 .mr-sm.et_pb_row,
 .mr-sm.et_pb_section,
 .mr-sm.et_pb_column,
-.mr-sm.et_pb_blurb {
+.mr-sm.et_pb_blurb,
+.mr-sm.et_pb_image,
+.mr-sm.et_pb_accordion_item,
+.mr-sm.et_pb_audio_module_content,
+.mr-sm.et_pb_module_header {
   margin-right: var(--spacing-sm) !important;
 }
 
@@ -190,7 +234,11 @@ p.mr-md,
 .mr-md.et_pb_row,
 .mr-md.et_pb_section,
 .mr-md.et_pb_column,
-.mr-md.et_pb_blurb {
+.mr-md.et_pb_blurb,
+.mr-md.et_pb_image,
+.mr-md.et_pb_accordion_item,
+.mr-md.et_pb_audio_module_content,
+.mr-md.et_pb_module_header {
   margin-right: var(--spacing-md) !important;
 }
 
@@ -206,7 +254,11 @@ p.mr-lg,
 .mr-lg.et_pb_row,
 .mr-lg.et_pb_section,
 .mr-lg.et_pb_column,
-.mr-lg.et_pb_blurb {
+.mr-lg.et_pb_blurb,
+.mr-lg.et_pb_image,
+.mr-lg.et_pb_accordion_item,
+.mr-lg.et_pb_audio_module_content,
+.mr-lg.et_pb_module_header {
   margin-right: var(--spacing-lg) !important;
 }
 
@@ -222,7 +274,11 @@ p.mr-xl,
 .mr-xl.et_pb_row,
 .mr-xl.et_pb_section,
 .mr-xl.et_pb_column,
-.mr-xl.et_pb_blurb {
+.mr-xl.et_pb_blurb,
+.mr-xl.et_pb_image,
+.mr-xl.et_pb_accordion_item,
+.mr-xl.et_pb_audio_module_content,
+.mr-xl.et_pb_module_header {
   margin-right: var(--spacing-xl) !important;
 }
 
@@ -238,7 +294,11 @@ p.mr-2xl,
 .mr-2xl.et_pb_row,
 .mr-2xl.et_pb_section,
 .mr-2xl.et_pb_column,
-.mr-2xl.et_pb_blurb {
+.mr-2xl.et_pb_blurb,
+.mr-2xl.et_pb_image,
+.mr-2xl.et_pb_accordion_item,
+.mr-2xl.et_pb_audio_module_content,
+.mr-2xl.et_pb_module_header {
   margin-right: var(--spacing-2xl) !important;
 }
 
@@ -254,7 +314,11 @@ p.mr-3xl,
 .mr-3xl.et_pb_row,
 .mr-3xl.et_pb_section,
 .mr-3xl.et_pb_column,
-.mr-3xl.et_pb_blurb {
+.mr-3xl.et_pb_blurb,
+.mr-3xl.et_pb_image,
+.mr-3xl.et_pb_accordion_item,
+.mr-3xl.et_pb_audio_module_content,
+.mr-3xl.et_pb_module_header {
   margin-right: var(--spacing-3xl) !important;
 }
 
@@ -272,7 +336,11 @@ p.mb-none,
 .mb-none.et_pb_row,
 .mb-none.et_pb_section,
 .mb-none.et_pb_column,
-.mb-none.et_pb_blurb {
+.mb-none.et_pb_blurb,
+.mb-none.et_pb_image,
+.mb-none.et_pb_accordion_item,
+.mb-none.et_pb_audio_module_content,
+.mb-none.et_pb_module_header {
   margin-bottom: var(--spacing-none) !important;
 }
 
@@ -288,7 +356,11 @@ p.mb-xs,
 .mb-xs.et_pb_row,
 .mb-xs.et_pb_section,
 .mb-xs.et_pb_column,
-.mb-xs.et_pb_blurb {
+.mb-xs.et_pb_blurb,
+.mb-xs.et_pb_image,
+.mb-xs.et_pb_accordion_item,
+.mb-xs.et_pb_audio_module_content,
+.mb-xs.et_pb_module_header {
   margin-bottom: var(--spacing-xs) !important;
 }
 
@@ -304,7 +376,11 @@ p.mb-sm,
 .mb-sm.et_pb_row,
 .mb-sm.et_pb_section,
 .mb-sm.et_pb_column,
-.mb-sm.et_pb_blurb {
+.mb-sm.et_pb_blurb,
+.mb-sm.et_pb_image,
+.mb-sm.et_pb_accordion_item,
+.mb-sm.et_pb_audio_module_content,
+.mb-sm.et_pb_module_header {
   margin-bottom: var(--spacing-sm) !important;
 }
 
@@ -320,7 +396,11 @@ p.mb-md,
 .mb-md.et_pb_row,
 .mb-md.et_pb_section,
 .mb-md.et_pb_column,
-.mb-md.et_pb_blurb {
+.mb-md.et_pb_blurb,
+.mb-md.et_pb_image,
+.mb-md.et_pb_accordion_item,
+.mb-md.et_pb_audio_module_content,
+.mb-md.et_pb_module_header {
   margin-bottom: var(--spacing-md) !important;
 }
 
@@ -336,7 +416,11 @@ p.mb-lg,
 .mb-lg.et_pb_row,
 .mb-lg.et_pb_section,
 .mb-lg.et_pb_column,
-.mb-lg.et_pb_blurb {
+.mb-lg.et_pb_blurb,
+.mb-lg.et_pb_image,
+.mb-lg.et_pb_accordion_item,
+.mb-lg.et_pb_audio_module_content,
+.mb-lg.et_pb_module_header {
   margin-bottom: var(--spacing-lg) !important;
 }
 
@@ -352,7 +436,11 @@ p.mb-xl,
 .mb-xl.et_pb_row,
 .mb-xl.et_pb_section,
 .mb-xl.et_pb_column,
-.mb-xl.et_pb_blurb {
+.mb-xl.et_pb_blurb,
+.mb-xl.et_pb_image,
+.mb-xl.et_pb_accordion_item,
+.mb-xl.et_pb_audio_module_content,
+.mb-xl.et_pb_module_header {
   margin-bottom: var(--spacing-xl) !important;
 }
 
@@ -368,7 +456,11 @@ p.mb-2xl,
 .mb-2xl.et_pb_row,
 .mb-2xl.et_pb_section,
 .mb-2xl.et_pb_column,
-.mb-2xl.et_pb_blurb {
+.mb-2xl.et_pb_blurb,
+.mb-2xl.et_pb_image,
+.mb-2xl.et_pb_accordion_item,
+.mb-2xl.et_pb_audio_module_content,
+.mb-2xl.et_pb_module_header {
   margin-bottom: var(--spacing-2xl) !important;
 }
 
@@ -384,7 +476,11 @@ p.mb-3xl,
 .mb-3xl.et_pb_row,
 .mb-3xl.et_pb_section,
 .mb-3xl.et_pb_column,
-.mb-3xl.et_pb_blurb {
+.mb-3xl.et_pb_blurb,
+.mb-3xl.et_pb_image,
+.mb-3xl.et_pb_accordion_item,
+.mb-3xl.et_pb_audio_module_content,
+.mb-3xl.et_pb_module_header {
   margin-bottom: var(--spacing-3xl) !important;
 }
 
@@ -402,7 +498,11 @@ p.ml-none,
 .ml-none.et_pb_row,
 .ml-none.et_pb_section,
 .ml-none.et_pb_column,
-.ml-none.et_pb_blurb {
+.ml-none.et_pb_blurb,
+.ml-none.et_pb_image,
+.ml-none.et_pb_accordion_item,
+.ml-none.et_pb_audio_module_content,
+.ml-none.et_pb_module_header {
   margin-left: var(--spacing-none) !important;
 }
 
@@ -418,7 +518,11 @@ p.ml-xs,
 .ml-xs.et_pb_row,
 .ml-xs.et_pb_section,
 .ml-xs.et_pb_column,
-.ml-xs.et_pb_blurb {
+.ml-xs.et_pb_blurb,
+.ml-xs.et_pb_image,
+.ml-xs.et_pb_accordion_item,
+.ml-xs.et_pb_audio_module_content,
+.ml-xs.et_pb_module_header {
   margin-left: var(--spacing-xs) !important;
 }
 
@@ -434,7 +538,11 @@ p.ml-sm,
 .ml-sm.et_pb_row,
 .ml-sm.et_pb_section,
 .ml-sm.et_pb_column,
-.ml-sm.et_pb_blurb {
+.ml-sm.et_pb_blurb,
+.ml-sm.et_pb_image,
+.ml-sm.et_pb_accordion_item,
+.ml-sm.et_pb_audio_module_content,
+.ml-sm.et_pb_module_header {
   margin-left: var(--spacing-sm) !important;
 }
 
@@ -450,7 +558,11 @@ p.ml-md,
 .ml-md.et_pb_row,
 .ml-md.et_pb_section,
 .ml-md.et_pb_column,
-.ml-md.et_pb_blurb {
+.ml-md.et_pb_blurb,
+.ml-md.et_pb_image,
+.ml-md.et_pb_accordion_item,
+.ml-md.et_pb_audio_module_content,
+.ml-md.et_pb_module_header {
   margin-left: var(--spacing-md) !important;
 }
 
@@ -466,7 +578,11 @@ p.ml-lg,
 .ml-lg.et_pb_row,
 .ml-lg.et_pb_section,
 .ml-lg.et_pb_column,
-.ml-lg.et_pb_blurb {
+.ml-lg.et_pb_blurb,
+.ml-lg.et_pb_image,
+.ml-lg.et_pb_accordion_item,
+.ml-lg.et_pb_audio_module_content,
+.ml-lg.et_pb_module_header {
   margin-left: var(--spacing-lg) !important;
 }
 
@@ -482,7 +598,11 @@ p.ml-xl,
 .ml-xl.et_pb_row,
 .ml-xl.et_pb_section,
 .ml-xl.et_pb_column,
-.ml-xl.et_pb_blurb {
+.ml-xl.et_pb_blurb,
+.ml-xl.et_pb_image,
+.ml-xl.et_pb_accordion_item,
+.ml-xl.et_pb_audio_module_content,
+.ml-xl.et_pb_module_header {
   margin-left: var(--spacing-xl) !important;
 }
 
@@ -498,7 +618,11 @@ p.ml-2xl,
 .ml-2xl.et_pb_row,
 .ml-2xl.et_pb_section,
 .ml-2xl.et_pb_column,
-.ml-2xl.et_pb_blurb {
+.ml-2xl.et_pb_blurb,
+.ml-2xl.et_pb_image,
+.ml-2xl.et_pb_accordion_item,
+.ml-2xl.et_pb_audio_module_content,
+.ml-2xl.et_pb_module_header {
   margin-left: var(--spacing-2xl) !important;
 }
 
@@ -514,7 +638,11 @@ p.ml-3xl,
 .ml-3xl.et_pb_row,
 .ml-3xl.et_pb_section,
 .ml-3xl.et_pb_column,
-.ml-3xl.et_pb_blurb {
+.ml-3xl.et_pb_blurb,
+.ml-3xl.et_pb_image,
+.ml-3xl.et_pb_accordion_item,
+.ml-3xl.et_pb_audio_module_content,
+.ml-3xl.et_pb_module_header {
   margin-left: var(--spacing-3xl) !important;
 }
 
@@ -532,7 +660,11 @@ p.mt-none,
 .mt-none.et_pb_row,
 .mt-none.et_pb_section,
 .mt-none.et_pb_column,
-.mt-none.et_pb_blurb {
+.mt-none.et_pb_blurb,
+.mt-none.et_pb_image,
+.mt-none.et_pb_accordion_item,
+.mt-none.et_pb_audio_module_content,
+.mt-none.et_pb_module_header {
   margin-top: var(--spacing-none) !important;
 }
 
@@ -548,7 +680,11 @@ p.mt-xs,
 .mt-xs.et_pb_row,
 .mt-xs.et_pb_section,
 .mt-xs.et_pb_column,
-.mt-xs.et_pb_blurb {
+.mt-xs.et_pb_blurb,
+.mt-xs.et_pb_image,
+.mt-xs.et_pb_accordion_item,
+.mt-xs.et_pb_audio_module_content,
+.mt-xs.et_pb_module_header {
   margin-top: var(--spacing-xs) !important;
 }
 
@@ -564,7 +700,11 @@ p.mt-sm,
 .mt-sm.et_pb_row,
 .mt-sm.et_pb_section,
 .mt-sm.et_pb_column,
-.mt-sm.et_pb_blurb {
+.mt-sm.et_pb_blurb,
+.mt-sm.et_pb_image,
+.mt-sm.et_pb_accordion_item,
+.mt-sm.et_pb_audio_module_content,
+.mt-sm.et_pb_module_header {
   margin-top: var(--spacing-sm) !important;
 }
 
@@ -580,7 +720,11 @@ p.mt-md,
 .mt-md.et_pb_row,
 .mt-md.et_pb_section,
 .mt-md.et_pb_column,
-.mt-md.et_pb_blurb {
+.mt-md.et_pb_blurb,
+.mt-md.et_pb_image,
+.mt-md.et_pb_accordion_item,
+.mt-md.et_pb_audio_module_content,
+.mt-md.et_pb_module_header {
   margin-top: var(--spacing-md) !important;
 }
 
@@ -596,7 +740,11 @@ p.mt-lg,
 .mt-lg.et_pb_row,
 .mt-lg.et_pb_section,
 .mt-lg.et_pb_column,
-.mt-lg.et_pb_blurb {
+.mt-lg.et_pb_blurb,
+.mt-lg.et_pb_image,
+.mt-lg.et_pb_accordion_item,
+.mt-lg.et_pb_audio_module_content,
+.mt-lg.et_pb_module_header {
   margin-top: var(--spacing-lg) !important;
 }
 
@@ -612,7 +760,11 @@ p.mt-xl,
 .mt-xl.et_pb_row,
 .mt-xl.et_pb_section,
 .mt-xl.et_pb_column,
-.mt-xl.et_pb_blurb {
+.mt-xl.et_pb_blurb,
+.mt-xl.et_pb_image,
+.mt-xl.et_pb_accordion_item,
+.mt-xl.et_pb_audio_module_content,
+.mt-xl.et_pb_module_header {
   margin-top: var(--spacing-xl) !important;
 }
 
@@ -628,7 +780,11 @@ p.mt-2xl,
 .mt-2xl.et_pb_row,
 .mt-2xl.et_pb_section,
 .mt-2xl.et_pb_column,
-.mt-2xl.et_pb_blurb {
+.mt-2xl.et_pb_blurb,
+.mt-2xl.et_pb_image,
+.mt-2xl.et_pb_accordion_item,
+.mt-2xl.et_pb_audio_module_content,
+.mt-2xl.et_pb_module_header {
   margin-top: var(--spacing-2xl) !important;
 }
 
@@ -644,6 +800,10 @@ p.mt-3xl,
 .mt-3xl.et_pb_row,
 .mt-3xl.et_pb_section,
 .mt-3xl.et_pb_column,
-.mt-3xl.et_pb_blurb {
+.mt-3xl.et_pb_blurb,
+.mt-3xl.et_pb_image,
+.mt-3xl.et_pb_accordion_item,
+.mt-3xl.et_pb_audio_module_content,
+.mt-3xl.et_pb_module_header {
   margin-top: var(--spacing-3xl) !important;
 }

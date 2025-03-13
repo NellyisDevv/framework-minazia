@@ -1,16 +1,28 @@
-.shadow-sm {
+.sh-sm,
+.sh-sm.et_pb_audio,
+.sh-sm.et_pb_image,
+.sh-sm.et_pb_accordion {
   box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1) !important;
 }
 
-.shadow-md {
+.sh-md,
+.sh-md.et_pb_audio,
+.sh-md.et_pb_image,
+.sh-md.et_pb_accordion {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important;
 }
 
-.shadow-lg {
+.sh-lg,
+.sh-lg.et_pb_audio,
+.sh-lg.et_pb_image,
+.sh-lg.et_pb_accordion {
   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) !important;
 }
 
-.shadow-xl {
+.sh-xl,
+.sh-xl.et_pb_audio,
+.sh-xl.et_pb_image,
+.sh-xl.et_pb_accordion {
   box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
     0 8px 10px -6px rgb(0 0 0 / 0.1) !important;
 }

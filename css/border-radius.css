@@ -1,63 +1,69 @@
-.rounded-none {
+.r-none {
   border-radius: 0px !important;
 }
 
-.rounded-sm.et_pb_image_wrap,
-.rounded-sm img,
-.rounded-sm.et_pb_button,
-.rounded-sm.et_pb_image,
-.rounded-sm.et_pb_video,
-.rounded-sm.et_pb_row,
-.rounded-sm.et_pb_blurb {
+.r-sm.et_pb_image_wrap,
+.r-sm img,
+.r-sm.et_pb_button,
+.r-sm.et_pb_image,
+.r-sm.et_pb_video,
+.r-sm.et_pb_row,
+.r-sm.et_pb_blurb,
+.r-sm.et_pb_column {
   border-radius: 0.25rem !important;
 }
 
-.rounded-md.et_pb_image_wrap,
-.rounded-md img,
-.rounded-md.et_pb_button,
-.rounded-md.et_pb_image,
-.rounded-md.et_pb_video,
-.rounded-md.et_pb_row,
-.rounded-md.et_pb_blurb {
+.r-md.et_pb_image_wrap,
+.r-md img,
+.r-md.et_pb_button,
+.r-md.et_pb_image,
+.r-md.et_pb_video,
+.r-md.et_pb_row,
+.r-md.et_pb_blurb,
+.r-md.et_pb_column {
   border-radius: 0.375rem !important;
 }
 
-.rounded-lg.et_pb_image_wrap,
-.rounded-lg img,
-.rounded-lg.et_pb_button,
-.rounded-lg.et_pb_image,
-.rounded-lg.et_pb_video,
-.rounded-lg.et_pb_row,
-.rounded-lg.et_pb_blurb {
+.r-lg.et_pb_image_wrap,
+.r-lg img,
+.r-lg.et_pb_button,
+.r-lg.et_pb_image,
+.r-lg.et_pb_video,
+.r-lg.et_pb_row,
+.r-lg.et_pb_blurb,
+.r-lg.et_pb_column {
   border-radius: 0.5rem !important;
 }
 
-.rounded-xl.et_pb_image_wrap,
-.rounded-xl img,
-.rounded-xl.et_pb_button,
-.rounded-xl.et_pb_image,
-.rounded-xl.et_pb_video,
-.rounded-xl.et_pb_row,
-.rounded-xl.et_pb_blurb {
+.r-xl.et_pb_image_wrap,
+.r-xl img,
+.r-xl.et_pb_button,
+.r-xl.et_pb_image,
+.r-xl.et_pb_video,
+.r-xl.et_pb_row,
+.r-xl.et_pb_blurb,
+.r-xl.et_pb_column {
   border-radius: 0.75rem !important;
 }
 
-.rounded-2xl.et_pb_image_wrap,
-.rounded-2xl img,
-.rounded-2xl.et_pb_button,
-.rounded-2xl.et_pb_image,
-.rounded-2xl.et_pb_video,
-.rounded-2xl.et_pb_row,
-.rounded-2xl.et_pb_blurb {
+.r-2xl.et_pb_image_wrap,
+.r-2xl img,
+.r-2xl.et_pb_button,
+.r-2xl.et_pb_image,
+.r-2xl.et_pb_video,
+.r-2xl.et_pb_row,
+.r-2xl.et_pb_blurb,
+.r-2xl.et_pb_column {
   border-radius: 0.95rem !important;
 }
 
-.rounded-3xl.et_pb_image_wrap,
-.rounded-3xl img,
-.rounded-3xl.et_pb_button,
-.rounded-3xl.et_pb_image,
-.rounded-3xl.et_pb_video,
-.rounded-3xl.et_pb_row,
-.rounded-3xl.et_pb_blurb {
+.r-3xl.et_pb_image_wrap,
+.r-3xl img,
+.r-3xl.et_pb_button,
+.r-3xl.et_pb_image,
+.r-3xl.et_pb_video,
+.r-3xl.et_pb_row,
+.r-3xl.et_pb_blurb,
+.r-3xl.et_pb_column {
   border-radius: 1.2rem !important;
 }

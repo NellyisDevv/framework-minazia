@@ -3,7 +3,7 @@
  * Plugin Name: Minazia Framework
  * Plugin URI: https://www.minazia.com
  * Description: A flexible framework for Divi.
- * Version: 1.4.2
+ * Version: 1.4.3
  * Author: Minazia CO
  * Author URI: https://www.minazia.com
  * Text Domain: minazia-framework

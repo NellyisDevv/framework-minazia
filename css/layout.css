@@ -1,6 +1,6 @@
 /* Mobile Screen Width Wide */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1500px) {
   #top-header > .container,
   #main-header > .container,
   #et_search_outer > .container,
@@ -29,98 +29,76 @@ Works: Headings / Paragraphs / Images
 Doesn't Work: Buttons
 */
 
-.et_pb_module.center,
-.center .et_pb_module_header,
-.center .et_pb_blurb_description {
+.et_pb_module.ct,
+.ct .et_pb_module_header,
+.ct .et_pb_blurb_description {
   text-align: center !important;
   align-items: center;
   margin-right: auto !important;
   margin-left: auto !important;
 }
 
-.et_pb_module.right,
-.right .et_pb_module_header,
-.right .et_pb_blurb_description {
+.et_pb_module.rt,
+.rt .et_pb_module_header,
+.rt .et_pb_blurb_description {
   text-align: right;
   align-items: right;
   margin-left: 0 !important;
   margin-right: auto !important;
 }
 
-.et_pb_module.left {
+.et_pb_module.lt {
   text-align: left;
   align-items: left;
   margin-left: auto !important;
   margin-right: 0 !important;
 }
 
-.et_pb_module.justify {
+.et_pb_module.jt {
   text-align: justify;
   align-items: justify;
 }
 
 /* Existing Mobile Classes */
 @media only screen and (max-width: 767px) {
-  .et_pb_module.mobile-center {
+  .et_pb_module.mb-ct {
     text-align: center !important;
     margin-right: auto !important;
     margin-left: auto !important;
   }
-  .et_pb_module.mobile-right {
+  .et_pb_module.mb-rt {
     text-align: right;
     margin-left: 0 !important;
     margin-right: auto !important;
   }
-  .et_pb_module.mobile-left {
+  .et_pb_module.mb-lt {
     text-align: left;
     margin-left: auto !important;
     margin-right: 0 !important;
   }
-  .et_pb_module.mobile-justify {
+  .et_pb_module.mb-jt {
     text-align: justify;
   }
 }
 
 /* Existing Tablet Classes */
 @media only screen and (max-width: 980px) {
-  .et_pb_module.t-center {
+  .et_pb_module.tb-ct {
     text-align: center !important;
     margin-right: auto !important;
     margin-left: auto !important;
   }
-  .et_pb_module.t-right {
+  .et_pb_module.tb-rt {
     text-align: right;
     margin-left: 0 !important;
     margin-right: auto !important;
   }
-  .et_pb_module.t-left {
+  .et_pb_module.tb-lt {
     text-align: left;
     margin-left: auto !important;
     margin-right: 0 !important;
   }
-  .et_pb_module.t-justify {
-    text-align: justify;
-  }
-}
-
-/* Both Tablet & Mobile (up to 980px) */
-@media only screen and (max-width: 980px) {
-  .et_pb_module.mt-center {
-    text-align: center !important;
-    margin-right: auto !important;
-    margin-left: auto !important;
-  }
-  .et_pb_module.mt-right {
-    text-align: right;
-    margin-left: 0 !important;
-    margin-right: auto !important;
-  }
-  .et_pb_module.mt-left {
-    text-align: left;
-    margin-left: auto !important;
-    margin-right: 0 !important;
-  }
-  .et_pb_module.mt-justify {
+  .et_pb_module.tb-jt {
     text-align: justify;
   }
 }

@@ -12,7 +12,11 @@ p.p-none,
 .p-none.et_pb_row,
 .p-none.et_pb_section,
 .p-none.et_pb_column,
-.p-none.et_pb_blurb {
+.p-none.et_pb_blurb,
+.p-none.et_pb_image,
+.p-none.et_pb_accordion_item,
+.p-none.et_pb_audio_module_content,
+.p-none.et_pb_module_header {
   padding: var(--spacing-none) !important;
 }
 
@@ -28,7 +32,11 @@ p.p-xs,
 .p-xs.et_pb_row,
 .p-xs.et_pb_section,
 .p-xs.et_pb_column,
-.p-xs.et_pb_blurb {
+.p-xs.et_pb_blurb,
+.p-xs.et_pb_image,
+.p-xs.et_pb_accordion_item,
+.p-xs.et_pb_audio_module_content,
+.p-xs.et_pb_module_header {
   padding: var(--spacing-xs) !important;
 }
 
@@ -44,7 +52,11 @@ p.p-sm,
 .p-sm.et_pb_row,
 .p-sm.et_pb_section,
 .p-sm.et_pb_column,
-.p-sm.et_pb_blurb {
+.p-sm.et_pb_blurb,
+.p-sm.et_pb_image,
+.p-sm.et_pb_accordion_item,
+.p-sm.et_pb_audio_module_content,
+.p-sm.et_pb_module_header {
   padding: var(--spacing-sm) !important;
 }
 
@@ -60,7 +72,11 @@ p.p-md,
 .p-md.et_pb_row,
 .p-md.et_pb_section,
 .p-md.et_pb_column,
-.p-md.et_pb_blurb {
+.p-md.et_pb_blurb,
+.p-md.et_pb_image,
+.p-md.et_pb_accordion_item,
+.p-md.et_pb_audio_module_content,
+.p-md.et_pb_module_header {
   padding: var(--spacing-md) !important;
 }
 
@@ -76,7 +92,11 @@ p.p-lg,
 .p-lg.et_pb_row,
 .p-lg.et_pb_section,
 .p-lg.et_pb_column,
-.p-lg.et_pb_blurb {
+.p-lg.et_pb_blurb,
+.p-lg.et_pb_image,
+.p-lg.et_pb_accordion_item,
+.p-lg.et_pb_audio_module_content,
+.p-lg.et_pb_module_header {
   padding: var(--spacing-lg) !important;
 }
 
@@ -92,7 +112,11 @@ p.p-xl,
 .p-xl.et_pb_row,
 .p-xl.et_pb_section,
 .p-xl.et_pb_column,
-.p-xl.et_pb_blurb {
+.p-xl.et_pb_blurb,
+.p-xl.et_pb_image,
+.p-xl.et_pb_accordion_item,
+.p-xl.et_pb_audio_module_content,
+.p-xl.et_pb_module_header {
   padding: var(--spacing-xl) !important;
 }
 
@@ -108,7 +132,11 @@ p.p-2xl,
 .p-2xl.et_pb_row,
 .p-2xl.et_pb_section,
 .p-2xl.et_pb_column,
-.p-2xl.et_pb_blurb {
+.p-2xl.et_pb_blurb,
+.p-2xl.et_pb_image,
+.p-2xl.et_pb_accordion_item,
+.p-2xl.et_pb_audio_module_content,
+.p-2xl.et_pb_module_header {
   padding: var(--spacing-2xl) !important;
 }
 
@@ -124,7 +152,11 @@ p.p-3xl,
 .p-3xl.et_pb_row,
 .p-3xl.et_pb_section,
 .p-3xl.et_pb_column,
-.p-3xl.et_pb_blurb {
+.p-3xl.et_pb_blurb,
+.p-3xl.et_pb_image,
+.p-3xl.et_pb_accordion_item,
+.p-3xl.et_pb_audio_module_content,
+.p-3xl.et_pb_module_header {
   padding: var(--spacing-3xl) !important;
 }
 
@@ -142,7 +174,11 @@ p.pr-none,
 .pr-none.et_pb_row,
 .pr-none.et_pb_section,
 .pr-none.et_pb_column,
-.pr-none.et_pb_blurb {
+.pr-none.et_pb_blurb,
+.pr-none.et_pb_image,
+.pr-none.et_pb_accordion_item,
+.pr-none.et_pb_audio_module_content,
+.pr-none.et_pb_module_header {
   padding-right: var(--spacing-none) !important;
 }
 
@@ -158,7 +194,11 @@ p.pr-xs,
 .pr-xs.et_pb_row,
 .pr-xs.et_pb_section,
 .pr-xs.et_pb_column,
-.pr-xs.et_pb_blurb {
+.pr-xs.et_pb_blurb,
+.pr-xs.et_pb_image,
+.pr-xs.et_pb_accordion_item,
+.pr-xs.et_pb_audio_module_content,
+.pr-xs.et_pb_module_header {
   padding-right: var(--spacing-xs) !important;
 }
 
@@ -174,7 +214,11 @@ p.pr-sm,
 .pr-sm.et_pb_row,
 .pr-sm.et_pb_section,
 .pr-sm.et_pb_column,
-.pr-sm.et_pb_blurb {
+.pr-sm.et_pb_blurb,
+.pr-sm.et_pb_image,
+.pr-sm.et_pb_accordion_item,
+.pr-sm.et_pb_audio_module_content,
+.pr-sm.et_pb_module_header {
   padding-right: var(--spacing-sm) !important;
 }
 
@@ -190,7 +234,11 @@ p.pr-md,
 .pr-md.et_pb_row,
 .pr-md.et_pb_section,
 .pr-md.et_pb_column,
-.pr-md.et_pb_blurb {
+.pr-md.et_pb_blurb,
+.pr-md.et_pb_image,
+.pr-md.et_pb_accordion_item,
+.pr-md.et_pb_audio_module_content,
+.pr-md.et_pb_module_header {
   padding-right: var(--spacing-md) !important;
 }
 
@@ -206,7 +254,11 @@ p.pr-lg,
 .pr-lg.et_pb_row,
 .pr-lg.et_pb_section,
 .pr-lg.et_pb_column,
-.pr-lg.et_pb_blurb {
+.pr-lg.et_pb_blurb,
+.pr-lg.et_pb_image,
+.pr-lg.et_pb_accordion_item,
+.pr-lg.et_pb_audio_module_content,
+.pr-lg.et_pb_module_header {
   padding-right: var(--spacing-lg) !important;
 }
 
@@ -222,7 +274,11 @@ p.pr-xl,
 .pr-xl.et_pb_row,
 .pr-xl.et_pb_section,
 .pr-xl.et_pb_column,
-.pr-xl.et_pb_blurb {
+.pr-xl.et_pb_blurb,
+.pr-xl.et_pb_image,
+.pr-xl.et_pb_accordion_item,
+.pr-xl.et_pb_audio_module_content,
+.pr-xl.et_pb_module_header {
   padding-right: var(--spacing-xl) !important;
 }
 
@@ -238,7 +294,11 @@ p.pr-2xl,
 .pr-2xl.et_pb_row,
 .pr-2xl.et_pb_section,
 .pr-2xl.et_pb_column,
-.pr-2xl.et_pb_blurb {
+.pr-2xl.et_pb_blurb,
+.pr-2xl.et_pb_image,
+.pr-2xl.et_pb_accordion_item,
+.pr-2xl.et_pb_audio_module_content,
+.pr-2xl.et_pb_module_header {
   padding-right: var(--spacing-2xl) !important;
 }
 
@@ -254,7 +314,11 @@ p.pr-3xl,
 .pr-3xl.et_pb_row,
 .pr-3xl.et_pb_section,
 .pr-3xl.et_pb_column,
-.pr-3xl.et_pb_blurb {
+.pr-3xl.et_pb_blurb,
+.pr-3xl.et_pb_image,
+.pr-3xl.et_pb_accordion_item,
+.pr-3xl.et_pb_audio_module_content,
+.pr-3xl.et_pb_module_header {
   padding-right: var(--spacing-3xl) !important;
 }
 
@@ -272,7 +336,11 @@ p.pb-none,
 .pb-none.et_pb_row,
 .pb-none.et_pb_section,
 .pb-none.et_pb_column,
-.pb-none.et_pb_blurb {
+.pb-none.et_pb_blurb,
+.pb-none.et_pb_image,
+.pb-none.et_pb_accordion_item,
+.pb-none.et_pb_audio_module_content,
+.pb-none.et_pb_module_header {
   padding-bottom: var(--spacing-none) !important;
 }
 
@@ -288,7 +356,11 @@ p.pb-xs,
 .pb-xs.et_pb_row,
 .pb-xs.et_pb_section,
 .pb-xs.et_pb_column,
-.pb-xs.et_pb_blurb {
+.pb-xs.et_pb_blurb,
+.pb-xs.et_pb_image,
+.pb-xs.et_pb_accordion_item,
+.pb-xs.et_pb_audio_module_content,
+.pb-xs.et_pb_module_header {
   padding-bottom: var(--spacing-xs) !important;
 }
 
@@ -304,7 +376,11 @@ p.pb-sm,
 .pb-sm.et_pb_row,
 .pb-sm.et_pb_section,
 .pb-sm.et_pb_column,
-.pb-sm.et_pb_blurb {
+.pb-sm.et_pb_blurb,
+.pb-sm.et_pb_image,
+.pb-sm.et_pb_accordion_item,
+.pb-sm.et_pb_audio_module_content,
+.pb-sm.et_pb_module_header {
   padding-bottom: var(--spacing-sm) !important;
 }
 
@@ -320,7 +396,11 @@ p.pb-md,
 .pb-md.et_pb_row,
 .pb-md.et_pb_section,
 .pb-md.et_pb_column,
-.pb-md.et_pb_blurb {
+.pb-md.et_pb_blurb,
+.pb-md.et_pb_image,
+.pb-md.et_pb_accordion_item,
+.pb-md.et_pb_audio_module_content,
+.pb-md.et_pb_module_header {
   padding-bottom: var(--spacing-md) !important;
 }
 
@@ -336,7 +416,11 @@ p.pb-lg,
 .pb-lg.et_pb_row,
 .pb-lg.et_pb_section,
 .pb-lg.et_pb_column,
-.pb-lg.et_pb_blurb {
+.pb-lg.et_pb_blurb,
+.pb-lg.et_pb_image,
+.pb-lg.et_pb_accordion_item,
+.pb-lg.et_pb_audio_module_content,
+.pb-lg.et_pb_module_header {
   padding-bottom: var(--spacing-lg) !important;
 }
 
@@ -352,7 +436,11 @@ p.pb-xl,
 .pb-xl.et_pb_row,
 .pb-xl.et_pb_section,
 .pb-xl.et_pb_column,
-.pb-xl.et_pb_blurb {
+.pb-xl.et_pb_blurb,
+.pb-xl.et_pb_image,
+.pb-xl.et_pb_accordion_item,
+.pb-xl.et_pb_audio_module_content,
+.pb-xl.et_pb_module_header {
   padding-bottom: var(--spacing-xl) !important;
 }
 
@@ -368,7 +456,11 @@ p.pb-2xl,
 .pb-2xl.et_pb_row,
 .pb-2xl.et_pb_section,
 .pb-2xl.et_pb_column,
-.pb-2xl.et_pb_blurb {
+.pb-2xl.et_pb_blurb,
+.pb-2xl.et_pb_image,
+.pb-2xl.et_pb_accordion_item,
+.pb-2xl.et_pb_audio_module_content,
+.pb-2xl.et_pb_module_header {
   padding-bottom: var(--spacing-2xl) !important;
 }
 
@@ -384,7 +476,11 @@ p.pb-3xl,
 .pb-3xl.et_pb_row,
 .pb-3xl.et_pb_section,
 .pb-3xl.et_pb_column,
-.pb-3xl.et_pb_blurb {
+.pb-3xl.et_pb_blurb,
+.pb-3xl.et_pb_image,
+.pb-3xl.et_pb_accordion_item,
+.pb-3xl.et_pb_audio_module_content,
+.pb-3xl.et_pb_module_header {
   padding-bottom: var(--spacing-3xl) !important;
 }
 
@@ -402,7 +498,11 @@ p.pl-none,
 .pl-none.et_pb_row,
 .pl-none.et_pb_section,
 .pl-none.et_pb_column,
-.pl-none.et_pb_blurb {
+.pl-none.et_pb_blurb,
+.pl-none.et_pb_image,
+.pl-none.et_pb_accordion_item,
+.pl-none.et_pb_audio_module_content,
+.pl-none.et_pb_module_header {
   padding-left: var(--spacing-none) !important;
 }
 
@@ -418,7 +518,11 @@ p.pl-xs,
 .pl-xs.et_pb_row,
 .pl-xs.et_pb_section,
 .pl-xs.et_pb_column,
-.pl-xs.et_pb_blurb {
+.pl-xs.et_pb_blurb,
+.pl-xs.et_pb_image,
+.pl-xs.et_pb_accordion_item,
+.pl-xs.et_pb_audio_module_content,
+.pl-xs.et_pb_module_header {
   padding-left: var(--spacing-xs) !important;
 }
 
@@ -434,7 +538,11 @@ p.pl-sm,
 .pl-sm.et_pb_row,
 .pl-sm.et_pb_section,
 .pl-sm.et_pb_column,
-.pl-sm.et_pb_blurb {
+.pl-sm.et_pb_blurb,
+.pl-sm.et_pb_image,
+.pl-sm.et_pb_accordion_item,
+.pl-sm.et_pb_audio_module_content,
+.pl-sm.et_pb_module_header {
   padding-left: var(--spacing-sm) !important;
 }
 
@@ -450,7 +558,11 @@ p.pl-md,
 .pl-md.et_pb_row,
 .pl-md.et_pb_section,
 .pl-md.et_pb_column,
-.pl-md.et_pb_blurb {
+.pl-md.et_pb_blurb,
+.pl-md.et_pb_image,
+.pl-md.et_pb_accordion_item,
+.pl-md.et_pb_audio_module_content,
+.pl-md.et_pb_module_header {
   padding-left: var(--spacing-md) !important;
 }
 
@@ -466,7 +578,11 @@ p.pl-lg,
 .pl-lg.et_pb_row,
 .pl-lg.et_pb_section,
 .pl-lg.et_pb_column,
-.pl-lg.et_pb_blurb {
+.pl-lg.et_pb_blurb,
+.pl-lg.et_pb_image,
+.pl-lg.et_pb_accordion_item,
+.pl-lg.et_pb_audio_module_content,
+.pl-lg.et_pb_module_header {
   padding-left: var(--spacing-lg) !important;
 }
 
@@ -482,7 +598,11 @@ p.pl-xl,
 .pl-xl.et_pb_row,
 .pl-xl.et_pb_section,
 .pl-xl.et_pb_column,
-.pl-xl.et_pb_blurb {
+.pl-xl.et_pb_blurb,
+.pl-xl.et_pb_image,
+.pl-xl.et_pb_accordion_item,
+.pl-xl.et_pb_audio_module_content,
+.pl-xl.et_pb_module_header {
   padding-left: var(--spacing-xl) !important;
 }
 
@@ -498,7 +618,11 @@ p.pl-2xl,
 .pl-2xl.et_pb_row,
 .pl-2xl.et_pb_section,
 .pl-2xl.et_pb_column,
-.pl-2xl.et_pb_blurb {
+.pl-2xl.et_pb_blurb,
+.pl-2xl.et_pb_image,
+.pl-2xl.et_pb_accordion_item,
+.pl-2xl.et_pb_audio_module_content,
+.pl-2xl.et_pb_module_header {
   padding-left: var(--spacing-2xl) !important;
 }
 
@@ -514,7 +638,11 @@ p.pl-3xl,
 .pl-3xl.et_pb_row,
 .pl-3xl.et_pb_section,
 .pl-3xl.et_pb_column,
-.pl-3xl.et_pb_blurb {
+.pl-3xl.et_pb_blurb,
+.pl-3xl.et_pb_image,
+.pl-3xl.et_pb_accordion_item,
+.pl-3xl.et_pb_audio_module_content,
+.pl-3xl.et_pb_module_header {
   padding-left: var(--spacing-3xl) !important;
 }
 
@@ -532,7 +660,11 @@ p.pt-none,
 .pt-none.et_pb_row,
 .pt-none.et_pb_section,
 .pt-none.et_pb_column,
-.pt-none.et_pb_blurb {
+.pt-none.et_pb_blurb,
+.pt-none.et_pb_image,
+.pt-none.et_pb_accordion_item,
+.pt-none.et_pb_audio_module_content,
+.pt-none.et_pb_module_header {
   padding-top: var(--spacing-none) !important;
 }
 
@@ -548,7 +680,11 @@ p.pt-xs,
 .pt-xs.et_pb_row,
 .pt-xs.et_pb_section,
 .pt-xs.et_pb_column,
-.pt-xs.et_pb_blurb {
+.pt-xs.et_pb_blurb,
+.pt-xs.et_pb_image,
+.pt-xs.et_pb_accordion_item,
+.pt-xs.et_pb_audio_module_content,
+.pt-xs.et_pb_module_header {
   padding-top: var(--spacing-xs) !important;
 }
 
@@ -564,7 +700,11 @@ p.pt-sm,
 .pt-sm.et_pb_row,
 .pt-sm.et_pb_section,
 .pt-sm.et_pb_column,
-.pt-sm.et_pb_blurb {
+.pt-sm.et_pb_blurb,
+.pt-sm.et_pb_image,
+.pt-sm.et_pb_accordion_item,
+.pt-sm.et_pb_audio_module_content,
+.pt-sm.et_pb_module_header {
   padding-top: var(--spacing-sm) !important;
 }
 
@@ -580,7 +720,11 @@ p.pt-md,
 .pt-md.et_pb_row,
 .pt-md.et_pb_section,
 .pt-md.et_pb_column,
-.pt-md.et_pb_blurb {
+.pt-md.et_pb_blurb,
+.pt-md.et_pb_image,
+.pt-md.et_pb_accordion_item,
+.pt-md.et_pb_audio_module_content,
+.pt-md.et_pb_module_header {
   padding-top: var(--spacing-md) !important;
 }
 
@@ -596,7 +740,11 @@ p.pt-lg,
 .pt-lg.et_pb_row,
 .pt-lg.et_pb_section,
 .pt-lg.et_pb_column,
-.pt-lg.et_pb_blurb {
+.pt-lg.et_pb_blurb,
+.pt-lg.et_pb_image,
+.pt-lg.et_pb_accordion_item,
+.pt-lg.et_pb_audio_module_content,
+.pt-lg.et_pb_module_header {
   padding-top: var(--spacing-lg) !important;
 }
 
@@ -612,7 +760,11 @@ p.pt-xl,
 .pt-xl.et_pb_row,
 .pt-xl.et_pb_section,
 .pt-xl.et_pb_column,
-.pt-xl.et_pb_blurb {
+.pt-xl.et_pb_blurb,
+.pt-xl.et_pb_image,
+.pt-xl.et_pb_accordion_item,
+.pt-xl.et_pb_audio_module_content,
+.pt-xl.et_pb_module_header {
   padding-top: var(--spacing-xl) !important;
 }
 
@@ -628,7 +780,11 @@ p.pt-2xl,
 .pt-2xl.et_pb_row,
 .pt-2xl.et_pb_section,
 .pt-2xl.et_pb_column,
-.pt-2xl.et_pb_blurb {
+.pt-2xl.et_pb_blurb,
+.pt-2xl.et_pb_image,
+.pt-2xl.et_pb_accordion_item,
+.pt-2xl.et_pb_audio_module_content,
+.pt-2xl.et_pb_module_header {
   padding-top: var(--spacing-2xl) !important;
 }
 
@@ -644,6 +800,10 @@ p.pt-3xl,
 .pt-3xl.et_pb_row,
 .pt-3xl.et_pb_section,
 .pt-3xl.et_pb_column,
-.pt-3xl.et_pb_blurb {
+.pt-3xl.et_pb_blurb,
+.pt-3xl.et_pb_image,
+.pt-3xl.et_pb_accordion_item,
+.pt-3xl.et_pb_audio_module_content,
+.pt-3xl.et_pb_module_header {
   padding-top: var(--spacing-3xl) !important;
 }

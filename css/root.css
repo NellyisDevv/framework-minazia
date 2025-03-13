@@ -1,58 +1,65 @@
 :root {
-  --spacing-none: none; /* Unchanged */
-  --spacing-xs: clamp(0.5rem, 0.4vw + 0.4rem, 0.75rem) !important; /* 8–12px */
-  --spacing-sm: clamp(0.75rem, 0.6vw + 0.6rem, 1rem) !important; /* 12–16px */
-  --spacing-md: clamp(1rem, 0.8vw + 0.8rem, 1.5rem) !important; /* 16–24px */
-  --spacing-lg: clamp(1.5rem, 1.2vw + 1.2rem, 2rem) !important; /* 24–32px */
-  --spacing-xl: clamp(2rem, 1.8vw + 1.6rem, 3rem) !important; /* 32–48px */
-  --spacing-2xl: clamp(3rem, 2.4vw + 2.4rem, 4rem) !important; /* 48–64px */
-  --spacing-3xl: clamp(4rem, 3.2vw + 3.2rem, 6rem) !important; /* 64–96px */
+  /* Spacing variables - keeping these unchanged */
+  --spacing-none: none;
+  --spacing-xs: clamp(0.5rem, 0.4vw + 0.4rem, 0.75rem) !important;
+  --spacing-sm: clamp(0.75rem, 0.6vw + 0.6rem, 1rem) !important;
+  --spacing-md: clamp(1rem, 0.8vw + 0.8rem, 1.5rem) !important;
+  --spacing-lg: clamp(1.5rem, 1.2vw + 1.2rem, 2rem) !important;
+  --spacing-xl: clamp(2rem, 1.8vw + 1.6rem, 3rem) !important;
+  --spacing-2xl: clamp(3rem, 2.4vw + 2.4rem, 4rem) !important;
+  --spacing-3xl: clamp(4rem, 3.2vw + 3.2rem, 6rem) !important;
 
-  --font-xs: clamp(0.75rem, 0.5vw + 0.65rem, 0.875rem) !important; /* 12–14px */
+  /* Revised font sizes with more symmetrical scaling */
+  --font-xs: clamp(0.75rem, 0.5vw + 0.65rem, 0.875rem) !important; /* 12-14px */
   --font-sm: clamp(
     0.875rem,
     0.7vw + 0.75rem,
     1.125rem
-  ) !important; /* 14–18px */
-  --font-md: clamp(1rem, 1vw + 0.85rem, 1.375rem) !important; /* 16–22px */
-  --font-lg: clamp(1.25rem, 1.4vw + 1rem, 1.75rem) !important; /* 20–28px */
-  --font-xl: clamp(1.5rem, 2vw + 1.2rem, 2.25rem) !important; /* 24–36px */
-  --font-2xl: clamp(1.875rem, 2.8vw + 1.5rem, 3rem) !important; /* 30–48px */
-  --font-3xl: clamp(2.25rem, 3.5vw + 1.8rem, 4rem) !important; /* 36–64px */
+  ) !important; /* 14-18px */
+  --font-md: clamp(1rem, 0.9vw + 0.85rem, 1.375rem) !important; /* 16-22px */
+  --font-lg: clamp(
+    1.375rem,
+    1.2vw + 1.15rem,
+    1.875rem
+  ) !important; /* 22-30px */
+  --font-xl: clamp(1.75rem, 1.6vw + 1.45rem, 2.5rem) !important; /* 28-40px */
+  --font-2xl: clamp(2.25rem, 2.2vw + 1.8rem, 3.25rem) !important; /* 36-52px */
+  --font-3xl: clamp(3rem, 3vw + 2.4rem, 4.5rem) !important; /* 48-72px */
 
+  /* Revised line heights to match new font sizes (1.5× ratio for smaller sizes, 1.25× for larger) */
   --lineheight-xs: clamp(
     1.125rem,
-    0.7vw + 0.975rem,
-    1.3125rem
-  ) !important; /* 18–21px */
+    0.75vw + 0.975rem,
+    1.315rem
+  ) !important; /* 18-21px */
   --lineheight-sm: clamp(
-    1.3125rem,
-    0.9vw + 1.125rem,
-    1.6875rem
-  ) !important; /* 21–27px */
+    1.315rem,
+    1.05vw + 1.125rem,
+    1.685rem
+  ) !important; /* 21-27px */
   --lineheight-md: clamp(
     1.5rem,
-    1.2vw + 1.275rem,
-    2rem
-  ) !important; /* 24–32px */
+    1.35vw + 1.275rem,
+    2.065rem
+  ) !important; /* 24-33px */
   --lineheight-lg: clamp(
-    1.875rem,
-    1.6vw + 1.5rem,
-    2.625rem
-  ) !important; /* 30–42px */
+    1.925rem,
+    1.5vw + 1.61rem,
+    2.5rem
+  ) !important; /* 31-40px */
   --lineheight-xl: clamp(
-    2.25rem,
-    2.2vw + 1.8rem,
-    3.375rem
-  ) !important; /* 36–54px */
+    2.275rem,
+    2vw + 1.81rem,
+    3.125rem
+  ) !important; /* 36-50px */
   --lineheight-2xl: clamp(
-    2.8125rem,
-    3vw + 2.25rem,
-    4.5rem
-  ) !important; /* 45–72px */
+    2.815rem,
+    2.75vw + 2.25rem,
+    4.065rem
+  ) !important; /* 45-65px */
   --lineheight-3xl: clamp(
-    3.375rem,
-    3.8vw + 2.7rem,
-    6rem
-  ) !important; /* 54–96px */
+    3.75rem,
+    3.75vw + 3rem,
+    5.625rem
+  ) !important; /* 60-90px */
 }

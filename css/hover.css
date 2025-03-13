@@ -1,0 +1,59 @@
+.sc-10.et_pb_button:hover,
+.sc-10.et_pb_image:hover,
+.sc-10.et_pb_blurb:hover {
+  transform: scale(1.1);
+}
+
+.sc-20.et_pb_button:hover,
+.sc-20.et_pb_image:hover,
+.sc-20.et_pb_blurb:hover {
+  transform: scale(1.2);
+}
+
+.sc-30.et_pb_button:hover,
+.sc-30.et_pb_image:hover,
+.sc-30.et_pb_blurb:hover {
+  transform: scale(1.3);
+}
+
+.sc-40.et_pb_button:hover,
+.sc-40.et_pb_image:hover,
+.sc-40.et_pb_blurb:hover {
+  transform: scale(1.4);
+}
+
+.sc-50.et_pb_button:hover,
+.sc-50.et_pb_image:hover,
+.sc-50.et_pb_blurb:hover {
+  transform: scale(1.5);
+}
+
+.sc-60.et_pb_button:hover,
+.sc-60.et_pb_image:hover,
+.sc-60.et_pb_blurb:hover {
+  transform: scale(1.6);
+}
+
+.sc-70.et_pb_button:hover,
+.sc-70.et_pb_image:hover,
+.sc-70.et_pb_blurb:hover {
+  transform: scale(1.7);
+}
+
+.sc-80.et_pb_button:hover,
+.sc-80.et_pb_image:hover,
+.sc-80.et_pb_blurb:hover {
+  transform: scale(1.8);
+}
+
+.sc-90.et_pb_button:hover,
+.sc-90.et_pb_image:hover,
+.sc-90.et_pb_blurb:hover {
+  transform: scale(1.9);
+}
+
+.sc-100.et_pb_button:hover,
+.sc-100.et_pb_image:hover,
+.sc-100.et_pb_blurb:hover {
+  transform: scale(2);
+}
